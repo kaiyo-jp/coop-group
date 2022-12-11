@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to left,rgb(206, 243, 255),white 50%,rgb(255, 216, 222)); 
+    background-repeat: no-repeat;
+}
+.apple{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.grape{
+    text-decoration: none;
+    color: black;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.dropdown-item{
+    text-decoration: none;
+    color: black;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,0);
+}
+.btn btn-secondary btn-sm dropdown-toggle{
+    font-family: 'Zen Kurenaido', sans-serif;
+}

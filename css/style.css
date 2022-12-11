@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to left,rgb(206, 243, 255),white 50%,rgb(255, 216, 222)); 
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin-bottom: 30px;
+}
+.nav-bar{
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.nav-item{
+    text-decoration: none;
+    color: black;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.dropdown-item{
+    text-decoration: none;
+    color: black;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.navbar-light .navbar-toggler {
+    border-color: black;
+}
+.btn btn-secondary btn-sm dropdown-toggle{
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.films{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 30px
+}
+.image-item{
+    max-width: 100%;
+    height: auto;
+}
+.coop-description{
+    text-align: center;
+}
